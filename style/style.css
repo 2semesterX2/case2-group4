@@ -103,6 +103,10 @@ h3 {
     padding-top: 5%;
     font-size: 1.5em
 }
+.doyou{
+    width: 50%
+    
+}
 p{
     font-family:paragraphfont;
     margin-left: 5%;
@@ -203,10 +207,17 @@ button{
     margin-left: 20%;
     margin-top: 9%
 }
+.forkbutton{
+     width: 50%;
+    margin-left: 0;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%
+}
 .progress {
     width: 15vw;
     margin-left: 5%;
-    margin-top: 65%;
+    margin-top: 59%;
 }
 
 /* --------------------SECTIONS AND OTHER CONTAINER -------------*/
