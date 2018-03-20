@@ -116,6 +116,15 @@ p{
     color: #000000;
     
 }
+a{
+    font-family: questionfont;
+    text-align: right;
+}
+
+.answer {
+    height: 28%;
+}
+
 
 
 /*------------ VIDEO/AUDIO, IMAGES  AND BUTTONS ------------------*/

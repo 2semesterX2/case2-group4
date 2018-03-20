@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <section id="headline">
+    <header id="headline">
     <img src="images/aarhus-university-logo.png" alt="Aarhus University logo" id="logo">
-    <a href="https://www.instagram.com/explore/tags/antikmuseet/?hl=da" class="hashtag">#antikmuseet <br>spiller</a>
-        </section>
+    <a >#ancientart <br>games</a>
+        </header>
      
     <section id="cover">
     <img src="images/vase.png" alt="Apulian vase" id="coverimg">
@@ -27,33 +27,37 @@
             </div>
         <button type="button">START</button>
     </section> 
+    <section id="audio">  <!-- same classs as in the frontpage img and background  -->
+        <img src="images/">
+        <p>Audio is included.</p>
+        <button class="continue">CONTINUE</button>
+    </section>
     <section id="story1">
-       
+    
         <div id="video"></div>
         <video></video>
     </section> 
-
     <section id="game1">
         <h3>What colour are the figures on the vase in front of you?</h3>
         <img src="images/vase_black.jpg" alt="Vase with black figures" class="imgwithborder_left">
          <img src="images/vase_red.jpg" alt="Vase with red figures" class="imgwithborder_right" >
         <img src="images/progress-bar-25.png" class="progress">
-    </section>
+    </section> 
     <section id="correct1">
          <h3>What colour are the figures on the vase in front of you?</h3>
          <img src="images/vase_black.jpg" alt="Vase with black figures" class="imgwithborder_red " >
          <img src="images/vase_red.jpg" alt="Vase with red figures" class="imgwithborder_green correct" >
         <h2>Correct!</h2>
-        <p>Apulian vase painting is known for its geometric style and use of the red-figure technique. <br><br>Red-figure vase painting developed in Athens around 520 BC and remained in use until the late 3rd century BC. It replaced the previously dominant style of black-figure vase painting within a few decades.
+        <p class="answer">Apulian vase painting is known for its geometric style and use of the red-figure technique. <br><br>Red-figure vase painting developed in Athens around 520 BC and remained in use until the late 3rd century BC. It replaced the previously dominant style of black-figure vase painting within a few decades.
         </p>
         <button class="continue">CONTINUE</button>
-    </section>
+    </section> 
     <section id="incorrect1">
         <h3>What colour are the figures on the vase in front of you?</h3>
          <img src="images/vase_black.jpg" alt="Vase with black figures" class="imgwithborder_red incorrect">
          <img src="images/vase_red.jpg" alt="Vase with red figures" class="imgwithborder_green " >
         <h2>Not quite.</h2>
-        <p>Apulian vase painting is known for its geometric style and use of the red-figure technique. <br><br>Red-figure vase painting developed in Athens around 520 BC and remained in use until the late 3rd century BC. It replaced the previously dominant style of black-figure vase painting within a few decades.
+        <p class="answer">Apulian vase painting is known for its geometric style and use of the red-figure technique. <br><br>Red-figure vase painting developed in Athens around 520 BC and remained in use until the late 3rd century BC. It replaced the previously dominant style of black-figure vase painting within a few decades.
         </p>
         <button class="continue">CONTINUE</button>
     </section>
@@ -66,13 +70,14 @@
         <img src="images/game2-1.JPG" alt="A vase with one crack" class="imgwithborder_left">
          <img src="images/game2-2.JPG" alt="A vase which has cracks on faces " class="imgwithborder_right" >
         <img src="images/progress-bar-50.png" class="progress">
-    </section>
+    </section> 
     <section id="correct2">
          <h3>What colour are the figures on the vase in front of you?</h3>
          <img src="images/game2-1.JPG" alt="A vase with one crack" class="imgwithborder_red " >
+        
          <img src="images/game2-2.JPG" alt="A vase which has cracks on faces" class="imgwithborder_green correct" >
         <h2>Correct!</h2>
-        <p>In order to smuggle antiques across country borders without detection, it is common for artifacts to be broken up into smaller pieces.<br><br>Here you can see that the pottery has been broken with care. The vase will sell for much more if painted figures remain intact. 
+        <p class="answer">In order to smuggle antiques across country borders without detection, it is common for artifacts to be broken up into smaller pieces.<br><br>Here you can see that the pottery has been broken with care. The vase will sell for much more if painted figures remain intact. 
         </p>
         <button class="continue">CONTINUE</button>
     </section>
@@ -81,7 +86,7 @@
          <img src="images/game2-1.JPG" alt="A vase with one crack" class="imgwithborder_red " >
          <img src="images/game2-2.JPG" alt="A vase which has cracks on faces" class="imgwithborder_green correct" >
         <h2>Not quite.</h2>
-        <p>In order to smuggle antiques across country borders without detection, it is common for artifacts to be broken up into smaller pieces.<br><br>Here you can see that the pottery has been broken with care. The vase will sell for much more if painted figures remain intact. 
+        <p class="answer">In order to smuggle antiques across country borders without detection, it is common for artifacts to be broken up into smaller pieces.<br><br>Here you can see that the pottery has been broken with care. The vase will sell for much more if painted figures remain intact. 
         </p>
         <button class="continue">CONTINUE</button>
     </section>
@@ -104,7 +109,7 @@
     </section>
     <section id="arttheftsquad">
         <h3>You’ve reported what you suspect was a black market trade.</h3>
-        <p>In 1969, Italy created the Carabinieri Art Squad, the world's first specialized police force to combat art crime. It now numbers 280 investigators who also safeguard artworks in regions struck by floods and earthquakes. <br><br>The unit also combats antiquities trafficking fueled by conflicts in the Middle East and Afghanistan.</p>
+        <p class="answer">In 1969, Italy created the Carabinieri Art Squad, the world's first specialized police force to combat art crime. It now numbers 280 investigators who also safeguard artworks in regions struck by floods and earthquakes. <br><br>The unit also combats antiquities trafficking fueled by conflicts in the Middle East and Afghanistan.</p>
     </section>
   <script src="js/scripts.js"></script>
 </body>
