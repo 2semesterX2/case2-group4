@@ -37,6 +37,8 @@ $(document).ready(function() {
     });
     
     //FOR STORY 2
+    //start video automatically after 1 second
+// when video ends show only section id=game2 and id=healine
  
     //FOR GAME 2
     //when a correct picture is pressed show only id=correct2 for 
@@ -50,8 +52,12 @@ $(document).ready(function() {
         $("#incorrect2").show();
     });        
     
+    // when continue is pressed show only section id=fork
+     $(".continuefromgame2").click(function() {
+        $("section").hide();
+        $("#fork").show();
+    });
     
-   
     
     });
    
@@ -60,9 +66,8 @@ $(document).ready(function() {
 
 
  and id=healdline 
-//start video automatically after 1 second
-// when video ends show only section id=game2 and id=healine
-// when when a correct picture is pressed show only id=correct2 else when the wrong image is pressed show id=incorrect2 and always show section id=headline
+
+
 //when 'continue' is pressed show only section id=fork and id=headline
 //when 'sell it' pressed show only section id=auction else when 'report it to the authorities is' pressed show only section id=arttheftsquad and id=headline
 
