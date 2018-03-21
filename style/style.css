@@ -124,7 +124,10 @@ a{
 .answer {
     height: 28%;
 }
-
+#headphone{
+    margin-top: 5%;
+    margin-left: 33%
+}
 
 
 /*------------ VIDEO/AUDIO, IMAGES  AND BUTTONS ------------------*/
@@ -195,7 +198,7 @@ a{
 }
 /*end small images */
 
-#coverimg {
+.coverimg {
     width: 70%;
     padding-left:15%;
     padding-right: 15%;
@@ -238,7 +241,13 @@ button{
     margin-left: 5%;
     margin-top: 59%;
 }
+#continuefromaudio{
+    margin-top: 45%
+}
 
+video{
+    max-width: 100%;
+}
 /* --------------------SECTIONS AND OTHER CONTAINER -------------*/
 section{
     height: 85vh;
