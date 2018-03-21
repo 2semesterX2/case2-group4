@@ -1,73 +1,75 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta lang="en">
-  <title>Art & Crime the Underworld of Apulian Art Game</title>
-  <meta name="description" content="Art & Crime the Underworld of Apulian Art Game">
-  <meta name="author" content="Group 4">
-  <meta name="keywords" content="HTML, CSS, XML, Antikmuseet, JavaScript">
+    <meta charset="utf-8">
+    <meta lang="en">
+    <title>Art & Crime the Underworld of Apulian Art Game</title>
+    <meta name="description" content="Art & Crime the Underworld of Apulian Art Game">
+    <meta name="author" content="Group 4">
+    <meta name="keywords" content="HTML, CSS, XML, Antikmuseet, JavaScript">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <!-- <link rel="stylesheet" href="style/template.css">-->
+    <!-- <link rel="stylesheet" href="style/template.css">-->
     <link rel="stylesheet" href="style/style.css">
- 
+
 </head>
 
 <body>
     <header id="headline">
-    <img src="images/aarhus-university-logo.png" alt="Aarhus University logo" id="logo">
-    <a >#ancientart <br>games</a>
-        </header>
-     
+        <img src="images/aarhus-university-logo.png" alt="Aarhus University logo" id="logo">
+        <a>#ancientart <br>games</a>
+    </header>
+
     <section id="cover">
-    <img src="images/vase.png" alt="Apulian vase" class="coverimg">
+        <img src="images/vase.png" alt="Apulian vase" class="coverimg">
         <div class="main">
-    <h1>ART &<br>CRIME</h1>
-        <p class="discription">The Underworld of Apulian Art in the 21st Century</p>
-            </div>
+            <h1>ART &<br>CRIME</h1>
+            <p class="discription">The Underworld of Apulian Art in the 21st Century</p>
+        </div>
         <button type="button" id="startbutton"> START</button>
     </section>
-    <section id="audio">  <!-- same classs as in the frontpage img and background  -->
+    <section id="audio">
+        <!-- same classs as in the frontpage img and background  -->
         <img src="images/icon-headphone.png" class="coverimg">
         <p id="headphone">Audio is included.</p>
         <button class="continue" id="continuefromaudio">CONTINUE</button>
     </section>
     <section id="story1">
-    
-      <!--  <div id="video"></div>-->
-        <video width="100%"  controls>
+
+        <!--  <div id="video"></div>-->
+        <video width="100%" controls id="video1">
   <source src="images/farmerv2.mp4" type="video/mp4">
   
   Your browser does not support the video tag.
 </video>
-    </section> 
+    </section>
     <section id="game1">
         <h3>What colour are the figures on the vase in front of you?</h3>
         <img src="images/vase_black.jpg" alt="Vase with black figures" class="imgwithborder_left" id="incorrectimg1">
-         <img src="images/vase_red.jpg" alt="Vase with red figures" class="imgwithborder_right" id="correctimg1">
+        <img src="images/vase_red.jpg" alt="Vase with red figures" class="imgwithborder_right" id="correctimg1">
         <img src="images/progress-bar-25.png" class="progress">
-    </section> 
+    </section>
     <section id="correct1">
-         <h3>What colour are the figures on the vase in front of you?</h3>
-         <img src="images/vase_black.jpg" alt="Vase with black figures" class="imgwithborder_red " >
-         <img src="images/vase_red.jpg" alt="Vase with red figures" class="imgwithborder_green correct"  >
+        <h3>What colour are the figures on the vase in front of you?</h3>
+        <img src="images/vase_black.jpg" alt="Vase with black figures" class="imgwithborder_red ">
+        <img src="images/vase_red.jpg" alt="Vase with red figures" class="imgwithborder_green correct">
         <h2>Correct!</h2>
         <p class="answer">Apulian vase painting is known for its geometric style and use of the red-figure technique. <br><br>Red-figure vase painting developed in Athens around 520 BC and remained in use until the late 3rd century BC. It replaced the previously dominant style of black-figure vase painting within a few decades.
         </p>
         <button class="continue continuefromgame1">CONTINUE</button>
-    </section> 
+    </section>
     <section id="incorrect1">
         <h3>What colour are the figures on the vase in front of you?</h3>
-         <img src="images/vase_black.jpg" alt="Vase with black figures" class="imgwithborder_red incorrect">
-         <img src="images/vase_red.jpg" alt="Vase with red figures" class="imgwithborder_green " >
+        <img src="images/vase_black.jpg" alt="Vase with black figures" class="imgwithborder_red incorrect">
+        <img src="images/vase_red.jpg" alt="Vase with red figures" class="imgwithborder_green ">
         <h2>Not quite.</h2>
         <p class="answer">Apulian vase painting is known for its geometric style and use of the red-figure technique. <br><br>Red-figure vase painting developed in Athens around 520 BC and remained in use until the late 3rd century BC. It replaced the previously dominant style of black-figure vase painting within a few decades.
         </p>
         <button class="continue continuefromgame1">CONTINUE</button>
     </section>
     <section id="story2">
-         <!-- <div id="video"></div> -->
-        <video width="100%"  controls>
+        <!-- <div id="video"></div> -->
+        <video width="100%" controls id="video2">
   <source src="images/smugglerv2.mp4" type="video/mp4">
   
   Your browser does not support the video tag.
@@ -77,42 +79,42 @@
     <section id="game2">
         <h3>Which of these Apulian vases is more likely to have been looted and sold on the black market?</h3>
         <img src="images/game2-1.JPG" alt="A vase with one crack" class="imgwithborder_left" id="incorrectimg2">
-         <img src="images/game2-2.JPG" alt="A vase which has cracks on faces " class="imgwithborder_right" id="correctimg2">
+        <img src="images/game2-2.JPG" alt="A vase which has cracks on faces " class="imgwithborder_right" id="correctimg2">
         <img src="images/progress-bar-50.png" class="progress">
-    </section> 
+    </section>
     <section id="correct2">
-         <h3>Which of these Apulian vases is more likely to have been looted and sold on the black market?</h3>
-         <img src="images/game2-1.JPG" alt="A vase with one crack" class="imgwithborder_red " >
-        
-         <img src="images/game2-2.JPG" alt="A vase which has cracks on faces" class="imgwithborder_green correct" >
+        <h3>Which of these Apulian vases is more likely to have been looted and sold on the black market?</h3>
+        <img src="images/game2-1.JPG" alt="A vase with one crack" class="imgwithborder_red ">
+
+        <img src="images/game2-2.JPG" alt="A vase which has cracks on faces" class="imgwithborder_green correct">
         <h2>Correct!</h2>
-        <p class="answer">In order to smuggle antiques across country borders without detection, it is common for artifacts to be broken up into smaller pieces.<br><br>Here you can see that the pottery has been broken with care. The vase will sell for much more if painted figures remain intact. 
+        <p class="answer">In order to smuggle antiques across country borders without detection, it is common for artifacts to be broken up into smaller pieces.<br><br>Here you can see that the pottery has been broken with care. The vase will sell for much more if painted figures remain intact.
         </p>
         <button class="continue continuefromgame2">CONTINUE</button>
     </section>
     <section id="incorrect2">
         <h3>Which of these Apulian vases is more likely to have been looted and sold on the black market?</h3>
-         <img src="images/game2-1.JPG" alt="A vase with one crack" class="imgwithborder_red " >
-         <img src="images/game2-2.JPG" alt="A vase which has cracks on faces" class="imgwithborder_green correct" >
+        <img src="images/game2-1.JPG" alt="A vase with one crack" class="imgwithborder_red ">
+        <img src="images/game2-2.JPG" alt="A vase which has cracks on faces" class="imgwithborder_green correct">
         <h2>Not quite.</h2>
-        <p class="answer">In order to smuggle antiques across country borders without detection, it is common for artifacts to be broken up into smaller pieces.<br><br>Here you can see that the pottery has been broken with care. The vase will sell for much more if painted figures remain intact. 
+        <p class="answer">In order to smuggle antiques across country borders without detection, it is common for artifacts to be broken up into smaller pieces.<br><br>Here you can see that the pottery has been broken with care. The vase will sell for much more if painted figures remain intact.
         </p>
         <button class="continue continuefromgame2">CONTINUE</button>
     </section>
     <section id="fork">
-        <h3>You’re an art dealer and you’ve come across an Apulian  vase you believe was  looted. </h3>
+        <h3>You’re an art dealer and you’ve come across an Apulian vase you believe was looted. </h3>
         <img src="images/game2-3.JPG" class="lootedvase">
-        
+
         <div class="main">
-           
-        <h3 class="doyou">Do you...</h3>
-            
+
+            <h3 class="doyou">Do you...</h3>
+
             <button class="forkbutton" id="sellit">SELL IT</button>
-        <button class="forkbutton" id="report">REPORT IT TO THE<br>AUTHORITIES</button>
-              
-            </div>
+            <button class="forkbutton" id="report">REPORT IT TO THE<br>AUTHORITIES</button>
+
+        </div>
         <img src="images/progress-bar-75.png" class="progress">
-    </section> 
+    </section>
     <section id="auction">
         <h3>You have sold an Apulian vase that you suspect was looted. </h3>
         <img src="images/PSA.png" class="psa">
@@ -121,10 +123,8 @@
         <h3>You’ve reported what you suspect was a black market trade.</h3>
         <img src="images/PSA.png" class="psa">
     </section>
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>

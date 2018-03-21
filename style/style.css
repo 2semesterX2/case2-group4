@@ -119,6 +119,7 @@ p{
 a{
     font-family: questionfont;
     text-align: right;
+    margin-right: 5%;
 }
 
 .answer {

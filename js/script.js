@@ -22,8 +22,19 @@ $(document).ready(function() {
         $("#story1").show();
     });
     
+    
+    
+    //STORY1
     // start video automatically after 1 second
     
+    
+    
+    $('#continuefromaudio').click(function(){
+  $('#video1').get(0).play()
+      });
+    
+    
+   
     // when video ends show only section id=game1 
     
     // FOR GAME 1
@@ -41,9 +52,14 @@ $(document).ready(function() {
      $(".continuefromgame1").click(function() {
         $("section").hide();
         $("#story2").show();
+      
     });
     
-    //FOR STORY 2
+    //STORY 2
+    
+     $("#continuefromgame1").click(function(){
+  $("#video2").get(0).play()
+      });
  
     //FOR GAME 2
     //when a correct picture is pressed show only id=correct2 for 
@@ -73,7 +89,7 @@ $(document).ready(function() {
         $("#arttheftsquad").show();
     });
     
-    
+   
     });
    
 
