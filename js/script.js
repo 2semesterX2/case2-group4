@@ -1,5 +1,12 @@
 
 
+// if page is loaded then only show the frontpage and id=headline
+// if 'start' is pressed show only section id=audio and id=headline
+// when continue is pressed show only section id=story1 and id=headline
+// start video automatically after 1 second
+// when video ends show only section id=game1 and id=headline 
+//when a correct picture is pressed show only id=correct1 else when the wrong image is pressed show id=incorrect1 and always show section id=headline
+
 $(document).ready(function() {
     // if page is loaded then only show the frontpage
     
@@ -37,8 +44,6 @@ $(document).ready(function() {
     });
     
     //FOR STORY 2
-    //start video automatically after 1 second
-// when video ends show only section id=game2 and id=healine
  
     //FOR GAME 2
     //when a correct picture is pressed show only id=correct2 for 
@@ -52,34 +57,35 @@ $(document).ready(function() {
         $("#incorrect2").show();
     });        
     
-    // when continue is pressed show only section id=fork
-     $(".continuefromgame2").click(function() {
+    
+   $(".continuefromgame2").click(function() {
         $("section").hide();
         $("#fork").show();
+    });
+    
+     $("#sellit").click(function() {
+        $("section").hide();
+        $("#auction").show();
+    });
+    
+     $("#report").click(function() {
+        $("section").hide();
+        $("#arttheftsquad").show();
     });
     
     
     });
    
 
+// when continue is pressed show only section id=story2 and id=healdline 
 
 
-
- and id=healdline 
-
-
-//when 'continue' is pressed show only section id=fork and id=headline
-//when 'sell it' pressed show only section id=auction else when 'report it to the authorities is' pressed show only section id=arttheftsquad and id=headline
-
-//make a header  then it is always 
-//$ section.hide
-//$ id secton .show if onclick
-//.on click name of the function
 /*
-$
-hide all sections
-faq example
-
+ and id=healdline 
+//start video automatically after 1 second
+// when video ends show only section id=game2 and id=healine
+// when when a correct picture is pressed show only id=correct2 else when the wrong image is pressed show id=incorrect2 and always show section id=headline
+ faq example
 .delay. hide
 controling video from jquery
 */

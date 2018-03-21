@@ -248,6 +248,10 @@ button{
 video{
     max-width: 100%;
 }
+.psa{
+    width: 90%;
+    margin-top: 5%;
+}
 /* --------------------SECTIONS AND OTHER CONTAINER -------------*/
 section{
     height: 85vh;
