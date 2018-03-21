@@ -252,7 +252,9 @@ video{
 .psa{
     width: 90%;
     margin-top: 5%;
+    margin-left: 5%;
 }
+
 /* --------------------SECTIONS AND OTHER CONTAINER -------------*/
 section{
     height: 85vh;

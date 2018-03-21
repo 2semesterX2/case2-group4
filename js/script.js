@@ -9,7 +9,7 @@
 
 $(document).ready(function() {
     // if page is loaded then only show the frontpage
-   $("section" ).hide();
+  $("section" ).hide();
         $("#cover").show();
     
      // if 'start' is pressed show only section id=audio
