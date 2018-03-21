@@ -33,9 +33,14 @@ $(document).ready(function() {
   $('#video1').get(0).play()
       });
     
-    
-   
+
     // when video ends show only section id=game1 
+    
+     $('#video1').on('ended',function(){
+     $("section").hide();
+        $("#game1").show();
+    });
+    
     
     // FOR GAME 1
     //when a correct picture is pressed show only id=correct1 for 
@@ -57,10 +62,17 @@ $(document).ready(function() {
     
     //STORY 2
     
-     $("#continuefromgame1").click(function(){
-  $("#video2").get(0).play()
+    
+     $('.continuefromgame1').click(function(){
+  $('#video2').get(0).play()
       });
- 
+    
+    //video ends and the section id=game2 is shown
+   $('#video2').on('ended',function(){
+     $("section").hide();
+        $("#game2").show();
+    });
+    
     //FOR GAME 2
     //when a correct picture is pressed show only id=correct2 for 
      $("#correctimg2").click(function() {
@@ -92,6 +104,12 @@ $(document).ready(function() {
    
     });
    
+
+
+
+
+
+
 
 // when continue is pressed show only section id=story2 and id=healdline 
 
